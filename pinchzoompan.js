@@ -217,7 +217,7 @@ pinchZoomPan.controller('pinchZoomPanController',
         var timeoutFunc = function(){
             if(map){
                 var transform = "translate3d(" + newOffsetX + "px," + newOffsetY + "px, 0) " + "scale3d(" + newContinuousZoomX + "," + newContinuousZoomY + ", 1) ";
-                map.css({"-webkit-transform": transform, "msTransform": transform});
+                map.css({"transform": transform, "oTransform": transform, "mozTransform": transform, "-webkit-transform": transform, "webkitTransform": transform, "msTransform": transform});
             }
             $timeout(timeoutFunc, 1000/60);
         };
