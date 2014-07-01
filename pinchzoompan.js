@@ -153,8 +153,8 @@ pinchZoomPan.controller('pinchZoomPanController',
                 translateTotalY = translateFromZoomingY + translateFromTranslatingY;
                 
                 // the new offset is the old/current one plus the total translation component
-                newOffsetX = getValidOffsetX(currentOffsetX + translateTotalX);
-                newOffsetY = getValidOffsetY(currentOffsetY + translateTotalY);
+                newOffsetX = currentOffsetX + translateTotalX;
+                newOffsetY = currentOffsetY + translateTotalY;
             }
         }
 
@@ -190,7 +190,6 @@ pinchZoomPan.controller('pinchZoomPanController',
             deltaY = endY0 - startY0;
             var newTop = newOffsetY + (deltaY);
             newOffsetY = newTop;
-            console.log(newOffsetX + ":" + newOffsetY)
             startX0 = endX0;
             startY0 = endY0;
         }
