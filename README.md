@@ -5,4 +5,4 @@ This library is based on https://github.com/monospaced/angular-hammer.
 Special Thanks to Applejacko
 
 
-IT WORKS PERFECTLY FINE IN CHROME, FIREFOX AND IE10+
+IT WORKS PERFECTLY FINE IN CHROME, FIREFOX, SAFARI, IE10+ and other webkit browsers
