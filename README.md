@@ -9,11 +9,13 @@ This library uses AngularJS and HammerJS to implement pinch-to-zoom, panning/dra
 * Supports all major browsers e.g. CHROME, FIREFOX, SAFARI, IE10+ and other webkit browsers
 
 ## Dependencies
-[AngularJS](https://angularjs.org/)
-[HammerJS](http://eightmedia.github.io/hammer.js/)
-[jQuery](http://jquery.com/download/)
+* [AngularJS](https://angularjs.org/)
+* [HammerJS](http://eightmedia.github.io/hammer.js/)
+* [jQuery](http://jquery.com/download/)
+
+## Authors
+* Asim Bashir Bhatti
 
 Special Thanks to Applejacko
 
-
-IT WORKS PERFECTLY FINE IN CHROME, FIREFOX, SAFARI, IE10+ and other webkit browsers
+Copyright::2014, Confiz. (http://www.confiz.com)
